@@ -245,5 +245,4 @@ if __name__ == "__main__":
     # This runs only locally. Render uses gunicorn which doesn't require this.
     app.run(debug=True, port=int(os.environ.get("PORT", 5000)))
 
-# if __name__ == "__main__":
-#     app.run(debug=True, port=5002)
+
